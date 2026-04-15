@@ -1,0 +1,148 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #fff7ed;
+    color: #222;
+}
+
+/* Global */
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.button_1 {
+    background: #f97316;
+    color: #fff;
+    border: 0;
+    padding: 10px 16px;
+    border-radius: 20px;
+}
+
+.dark {
+    background: #7c2d12;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Header */
+header {
+    background: #fb923c;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header .highlight,
+header .current a {
+    color: #4c1d95;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #1e3a8a;
+}
+
+/* Showcase */
+#showcase {
+    background: linear-gradient(120deg, #f97316, #ec4899, #8b5cf6);
+    color: #fff;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+#showcase h1 {
+    font-size: 38px;
+}
+
+#showcase p {
+    font-size: 18px;
+}
+
+/* Newsletter */
+#newsletter {
+    background: #ffe4e6;
+    padding: 20px;
+    text-align: center;
+}
+
+#newsletter input[type="email"] {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Layout */
+article#main-col {
+    width: 65%;
+    float: left;
+}
+
+aside#sidebar {
+    width: 30%;
+    float: right;
+}
+
+/* Sidebar */
+aside#sidebar .quote input,
+aside#sidebar .quote textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* Boxes */
+#boxes {
+    margin-top: 20px;
+}
+
+#boxes .box {
+    float: left;
+    width: 30%;
+    margin: 1.5%;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #f97316;
+}
+
+#boxes .box img {
+    width: 70px;
+}
+
+/* Services */
+ul#services li {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-left: 6px solid #ec4899;
+    border-radius: 6px;
+}
+
+/* Footer */
+footer {
+    background: #4c1d95;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
